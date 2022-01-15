@@ -2,7 +2,7 @@ const btnTranslate = document.querySelector("#btn-tran")
 const data = document.querySelector("#inputdata")
 const out = document.querySelector("#output")
 const img_out = document.querySelector("#img")
-const url = "https://api.funtranslations.com/translate/minion.json?text="
+let url = "https://api.funtranslations.com/translate/minion.json?text="
 
 const errorHandler=(error)=>console.log(error);
 
